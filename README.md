@@ -1,4 +1,7 @@
 # isomorphic-git-issue-1855
+
+> This now works correctly for me 🎉
+
 Just outlining what I experienced in <https://github.com/isomorphic-git/isomorphic-git/issues/1855>
 
 Originally I had to pin the repo to `1.24.5` to get `isomorphic-git` operational. Since then I've been able to update to the latest and it appears to now work correctly.
@@ -11,7 +14,7 @@ With regards to <https://github.com/isomorphic-git/isomorphic-git/issues/1855#is
 ## Setup
 Clone the repo
 
-```
+```bash
 npm i
 npm run dev
 ```
