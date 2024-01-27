@@ -1,0 +1,19 @@
+{
+  "name": "iso-git-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "@isomorphic-git/lightning-fs": "^4.6.0",
+    "isomorphic-git": "^1.25.3",
+    "vite-plugin-node-polyfills": "^0.19.0"
+  }
+}
